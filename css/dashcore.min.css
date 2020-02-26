@@ -18475,8 +18475,10 @@ main {
     font-family: "Poppins", sans-serif;
     font-size: 0.9rem;
     font-weight: 700;
-    -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, opacity 0.3s ease-in-out;
-    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out,
+ opacity 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out,
+ opacity 0.3s ease-in-out;
     text-decoration: none;
     letter-spacing: 1px;
     padding: 1rem; }
@@ -19474,7 +19476,7 @@ main {
   position: absolute; }
   .how-it-works .shape-circle {
     width: 50%;
-    height: 50%;
+    height: 45%;
     background: -webkit-gradient(linear, left top, left bottom, from(#f1f4f8), to(#f9fbfd));
     background: linear-gradient(to bottom, #f1f4f8, #f9fbfd);
     border-radius: 50%;
