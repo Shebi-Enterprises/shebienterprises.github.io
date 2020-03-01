@@ -35,6 +35,17 @@
       <link rel="stylesheet" href="css/vendor.min.css">
       <link rel="stylesheet" href="css/dashcore.min.css">
       <!-- endinject -->
+      <style>
+         .li_section img{
+             display: block;
+         }
+         
+         @media (max-width:640px){
+             .li_section img:first-child{
+                 display:none;
+             }
+         }
+         </style>
    </head>
    <body>
       <!--[if lt IE 8]>
@@ -242,8 +253,10 @@
             </div>
             <div class="main-shape-wrapper">
                <div class="bubbles-wrapper">
-                  <div data-aos="fade-up"><img src="img/v8/header/buiding.png" class="img-responsive main-shape floating" alt=""></div>
-                  <ul class="animations m-0">
+                  <div data-aos="fade-up">
+                     <img src="img/v8/header/buiding.png" class="img-responsive main-shape floating" alt="">
+                  </div>
+                  <ul class="animations m-0 li_section">
                      <li class="bubble icon icon-xxl"><img src="img/v8/header/like.svg" alt="" class="img-responsive"></li>
                      <li class="bubble icon icon-xl"><img src="img/v8/header/const.png" alt="" class="img-responsive"></li>
                      <li class="bubble icon icon-lg"><img src="img/v8/header/heart.svg" alt="" class="img-responsive"></li>
@@ -483,9 +496,9 @@
                      <div class="row gap-y text-center text-md-left">
                         <div class="col-md-4 py-4 text-center">
                            
-                           <div class="shapes-figure shapes-container">
+                           <!-- <div class="shapes-figure shapes-container">
                               <div class="shape shape-circle center-x"></div>
-                           </div>
+                           </div> -->
                            
                            <figure class="mockup mb-4"><img src="img/integration/steps/plan.svg" class="mb-3 image-responsive main-shape floating"></figure>
                            <h5 class="bold">What we do ?</h5>
@@ -493,18 +506,18 @@
                               </p>
                         </div>
                         <div class="col-md-4 py-4 text-center">
-                           <div class="shapes-figure shapes-container">
+                           <!-- <div class="shapes-figure shapes-container">
                               <div class="shape shape-circle center-x"></div>
-                           </div>
+                           </div> -->
                            <figure class="mockup mb-4"><img src="img/integration/steps/payment.svg" class="mb-3 image-responsive main-shape floating"></figure>
                            <h5 class="bold">Mission</h5>
                            <p class="text-muted">Shebi Enterprises has a commitment to provide quality Construction services and support at a very competitive pricing to our clients and to foster a work environment that encourages new ideas, new innovations and growth. We develop high performing people who in return deliver successful projects.
                            </p>
                         </div>
                         <div class="col-md-4 py-4 text-center">
-                           <div class="shapes-figure shapes-container">
+                           <!-- <div class="shapes-figure shapes-container">
                               <div class="shape shape-circle center-x"></div>
-                           </div>
+                           </div> -->
                            <figure class="mockup mb-4"><img src="img/integration/steps/work.svg" class="mb-3 image-responsive main-shape floating"></figure>
                            <h5 class="bold">Vision</h5>
                            <p class="text-muted">To be the most preferred and in demand provider of superior construction services by consistently improving the quality and service of our work and adding value for clients through innovation, foresight, integrity, and aggressive performance.
